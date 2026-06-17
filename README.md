@@ -4,11 +4,14 @@ Homebrew casks for [WiseForge](https://wiseforge.co.uk) apps.
 
 ## Voce
 
-On-device dictation for macOS.
+On-device push-to-talk dictation for macOS.
 
 ```sh
-brew install --cask wiseforge-ltd/tap/voce
+brew tap wiseforge-ltd/tap
+brew trust wiseforge-ltd/tap
+brew install --cask voce
 ```
 
-The first command taps this repository automatically; after that, `brew upgrade`
-keeps Voce current. (Voce also self-updates in-app via Sparkle.)
+Homebrew 6 asks you to `trust` a third-party tap once before it will install
+from it. After that, `brew upgrade` keeps Voce current (Voce also self-updates
+in-app via Sparkle).
