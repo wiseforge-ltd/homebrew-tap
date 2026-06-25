@@ -1,6 +1,6 @@
 cask "voce" do
-  version "1.1.0"
-  sha256 "512bcd943e3e49a91e25fe1b69df288b69bc84bde7f742e7efa4f0a7d07f4786"
+  version "1.1.1"
+  sha256 "6afcc83d7e53e73abe5e2ddd87f9f02c5d7534a1bdbd7ce4936eab601e39a54f"
 
   url "https://wiseforge.co.uk/voce/Voce-#{version}.dmg"
   name "Voce"
